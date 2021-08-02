@@ -10,7 +10,7 @@ yesterday = date.today() - timedelta(1)
 curr_date = str(yesterday)
 print(curr_date)
 storageAccountName = "marketingbidata"
-storageKey = "7ZgRghttYibcCbTm5AgYk/7Seu9m2bJEI+hmpuk471RngefDdM7AKXVXSzyTjsM/SHSG4I7uuf+vxgrMUklowg=="
+storageKey = "storage_key"
 containerName = "marketingdataoutput"
 
 blobService = BlockBlobService(account_name=storageAccountName,
